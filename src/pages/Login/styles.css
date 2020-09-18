@@ -1,0 +1,33 @@
+.c-bacg {
+    background: transparent;
+    padding: 20px;
+    max-width: 80%;
+    margin-top: 3vw;
+    border-radius: 5px;
+}
+.button-submit {
+    border: none;
+    background: transparent;
+}
+.modcol-2 {
+    background: transparent;
+    padding: 20px;
+    border-radius: 5px;
+}
+.MuiFormLabel-root {
+    color: rgb(255 222 145) !important;
+}
+.MuiInputBase-root {
+    color: rgb(255 255 255) !important;
+}
+.MuiOutlinedInput-notchedOutline {
+    border-color: rgb(255 222 145 / 35%) !important;
+}
+.MuiOutlinedInput-root {
+    position: relative;
+    border-radius: 4px;
+    margin-block-end: 8px;
+}
+.MuiFormControl-root {
+    margin-left: 8px !important;
+}

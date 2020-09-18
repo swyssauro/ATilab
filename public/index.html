@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+  <meta name="description" content="Web site created using create-react-app" />
+  <title>aiTIa_</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
+<script>
+  TweenMax.from(".navbar", 2, {
+    delay: 0.1,
+    y: -50,
+    opacity: 0,
+    ease: Expo.easeInOut
+  });
+
+  TweenMax.from(".title-h1", 2, {
+    delay: 0.1,
+    y: -20,
+    yoyo: true, 
+    repeat: -1, 
+    opacity: 1,
+    ease: Expo.easeInOut
+  });
+
+  TweenMax.from(".title-h2", 2, {
+    delay: 0.1,
+    y: -20,
+    yoyo: true, 
+    repeat: -1, 
+    opacity: 1,
+    ease: Expo.easeInOut
+  });
+
+  TweenMax.from(".fild-ani1", 2, {
+    delay: 0.1,
+    y: -20,
+    opacity: 1,
+    ease: Expo.easeInOut
+  });
+  
+  TweenMax.from(".fild-ani2", 2, {
+    delay: 0.3,
+    y: -20,
+    opacity: 1,
+    ease: Expo.easeInOut
+  });
+
+  TweenMax.from(".selct-anim", 2, {
+    delay: 0.3,
+    y: 20,
+    opacity: 1,
+    ease: Expo.easeInOut
+  });
+</script>
+</html>

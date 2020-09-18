@@ -1,0 +1,59 @@
+.lsit-st {
+    background: #8670a059;
+    padding: 20px;
+    line-height: 0px;
+    border-radius: 5px;
+    height: auto;
+}
+.title-orç {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif !important;
+    position: relative;
+    top: -15px;
+    color: #ffde91;
+    font-weight: 800;
+}
+.title-desc {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif !important;
+    position: relative;
+    top: 0px;
+    color: #ffffff;
+    font-weight: 800;
+}
+.items {
+    display: flex;
+    position: relative;
+    padding: 0px;
+    justify-content: space-around;
+}
+.items-top {
+    position: relative;
+    top: 19px;
+    background: #5c436f;
+    padding: 13px;
+    left: 19px;
+    border-radius: 5px;
+}
+.p-items {
+    margin: 0px !important;
+    padding: 10px 20px;
+    color: #fff;
+}
+.button-lix {
+    border: none;
+    background: transparent;
+}
+.value-proj {
+    font-size: 20px;
+    margin: 0px;
+    color: #ffde91;
+    padding: 0;
+    font-weight: 700;
+}
+.flex-lix {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0px;
+}

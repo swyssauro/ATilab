@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,400;1,800&display=swap');
+body { background: #2C1138 !important; }
+* { margin: 0px; padding: none; list-style: none !important; }
+hr {
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+    border: 0 !important;
+    border-top: 20px solid rgb(44 17 56) !important;
+    width: 1px !important;
+    text-align: center !important;
+}
+button {
+    background: none;
+    border: none;
+}
+:focus { outline: none !important; }
+.scale {
+    fill: transparent !important;
+    stroke: #b595ff70 !important;
+    stroke-width: 3px !important;
+}
+.MuiSelect-icon {
+    color: rgb(255 222 145 / 51%) !important;
+}
+.caption {
+    fill: #d8c7ff !important;
+    font-weight: 400 !important;
+    text-shadow: none !important;
+    text-align: center !important;
+}
+.MuiPopover-paper {
+    top: 464px !important;
+    background: #ffde91 !important;
+    border: 1px solid #ffde91 !important;
+}
+.button-lix {
+    border: 1px solid #f44336 !important;
+    padding: 13px 40px !important;
+    border-radius: 50px !important; 
+}
+
+@media only screen and (max-width: 600px) {
+    .modcol-2 {
+        background: transparent;
+        padding: 20px;
+        border-radius: 5px;
+        top: 55vw;
+        right: 31vw;
+    }
+}

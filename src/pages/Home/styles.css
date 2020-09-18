@@ -1,0 +1,23 @@
+.jumbotron { background-color: transparent; }
+.title-h1 {
+    color:#ffde91;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    line-height: 40px;
+    font-size: 49px;
+    font-style: italic;
+    font-weight: 700;
+    transform: skew(10deg, 3deg);
+    transition: 400ms;
+}
+.title-h2 {
+    color: #2c1138;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    line-height: 40px;
+    font-size: 49px;
+    font-style: italic;
+    font-weight: 700;
+    transform: skew(10deg, 3deg);
+    transition: 400ms;
+}

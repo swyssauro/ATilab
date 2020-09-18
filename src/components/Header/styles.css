@@ -1,0 +1,32 @@
+.logo {
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    color: #d8c7ff !important;
+    font-weight: 800;
+    transition: 400ms;
+}
+.logo:hover {
+    transform: skew(10deg, 5deg);
+    transition: 400ms;
+}
+.button-i {
+    border: 1px solid #d8c7ff85;
+    padding: 10px 52px;
+    display: inline-flex;
+    border-radius: 5px;
+    transition: 400ms;
+}
+.button-i:hover {
+    transition: 400ms;
+    transform: translateX(15px);
+}
+.sub-logo {
+    font-size: 18px;
+    color: #d8c7ffa6 !important;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    padding: 0 10%;
+    font-weight: 600;
+    transition: 400ms;
+}
