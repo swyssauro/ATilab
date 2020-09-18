@@ -36,6 +36,7 @@ npm install || yarn
 
 <b>Deployment</b>, static-server ( React ).
 ```bash
+npm run-script build || yarn build
 npm install -g serve || yarn global add serve
 serve -s build || npx serve -s build
 ```
